@@ -11,5 +11,5 @@ def good_afternoon_view(request):
     return HttpResponse(msg)
 
 def good_evening_view(request):
-    msg = "<h1>Hello Friend Good Evening!!!</h1>"
+    msg = "<h1>Hello Friend Good Evening!!! and welcome to gitub commit</h1>"
     return HttpResponse(msg)
